@@ -1,0 +1,41 @@
+.restaurantListWrapper{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+
+.restaurantInputContainer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 10%;
+	width: 100%;
+	margin: 0;
+}
+
+.restaurantList{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.restaurantItem{
+	display: flex;
+	padding-left: 10px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.restaurantInputContainer button{
+	padding: 0;
+	margin: 0;
+	border: none;
+	border-radius: 0;
+}

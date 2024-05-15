@@ -1,0 +1,35 @@
+.componentRollIn{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	animation: roll-in 0.5s linear;
+}
+
+.componentRollOut{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	animation: roll-out 0.5s linear;
+}
+
+@keyframes roll-in{
+	from{
+		transform: translateY(50px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}
+
+@keyframes roll-out{
+	from{
+		transform: translateY(0px);
+	}
+	to{
+		transform: translateY(-50px);
+	}
+}

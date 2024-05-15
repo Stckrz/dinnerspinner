@@ -1,0 +1,13 @@
+.spinnerItem {
+	height: 50px;
+	font-size: 30px;
+	animation: color 1s;
+}
+@keyframes color{
+	from{
+		transform: translateY(50px);
+	}
+	to{
+		transform: translateY(0px);
+	}
+}

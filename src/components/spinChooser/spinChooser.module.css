@@ -1,0 +1,33 @@
+.mainSpinnerWrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+}
+
+.spinnerContainer {
+	height: 50px;
+	width: 50%;
+	background-color: white;
+	overflow-y: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+.spinnerContainer::-webkit-scrollbar {
+	display: none;
+}
+
+.spinnerItem {
+	height: 50px;
+	width: 50%;
+	font-size: 30px;
+	background-color: white;
+	overflow: hidden;
+}
+
+.buttonBox{
+	margin: 5px;
+	display: flex;
+	gap: 5px;
+}
